@@ -1,0 +1,46 @@
+Entender las bases de la sintaxis Dart - Bucles y listas
+
+1. Programa exemple01.dart para que al ejecutarse:
+
+    a. Calcule el radio de dos círculos:
+    i. Círculo A: área = 78 cm²
+    ii. Círculo B: área = 38 cm²
+
+    b. Debes tener en cuenta el tipo de las variables. En Dart hay librerías para consultar las variables que realizan cálculos matemáticos (no es necesario instalarlas).
+
+    c. Muestra por consola el valor de los dos radios.
+
+    d. Suma los dos radios y muestra el resultado.
+
+2. Programa exemple02.dart para que al ejecutarse:
+
+    a. Muestre una progresión numérica de los números impares desde 100 hasta 50. Debes utilizar el bucle for.
+
+    b. Muestre una progresión numérica de los números entre 20 y 50. Cuando sea par debe mostrar el mensaje "El número es par". Debes utilizar el bucle while.
+
+3. Programa exemple03.dart para que al ejecutarse:
+
+    Se declaren dos variables con valores numéricos de tipo double superiores a 10 y, seguidamente:
+
+    a. Muestre la progresión numérica de los números pares desde 0 hasta el valor de la primera variable con un bucle for.
+
+    b. Muestre la progresión numérica desde la segunda variable hasta 0 con un bucle while.
+
+    c. Muestre la progresión numérica desde la primera variable hasta la segunda con un bucle do/while.
+    (Si la segunda variable es más pequeña, solo hay que imprimir una vez el valor de la primera variable).
+
+4. Programa exemple04.dart para que al ejecutarse:
+
+    a. Cree una lista con los siguientes números:
+
+    [15, 223, 334, 154, 99, 656]
+
+    b. Muestre por pantalla los números que sean pares.
+
+    c. Muestre por pantalla los números que sean impares.
+
+5. Programa exemple05.dart para que al ejecutarse:
+
+    a. Concatene un texto con el resultado de la operación de la actividad 1, del círculo A, utilizando la concatenación con el símbolo +.
+
+    b. Concatene un texto con el resultado de la operación de la actividad 1, del círculo B, utilizando la concatenación con el símbolo $.

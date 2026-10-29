@@ -1,0 +1,45 @@
+Clases y métodos
+
+1 Crea un programa en Dart para gestionar los alumnos y los módulos del curso. Las clases a utilizar son las siguientes:
+
+	a. Módulo:
+	i. Nombre
+	ii. Cantidad de RAs
+	iii. Horas
+	b. Alumno:
+	i. Nombre
+	ii. Apellidos
+	iii. DNI
+	iv. Edad
+	v. Listado de módulos que cursa (tipo Modulo)
+	vi. Si es repetidor o no
+
+2 Las clases anteriores tienen que tener: 
+	a. Constructor
+	b. Las variables no pueden ser “nullables”
+	c. Sobreescribir el método to String() para que muestre la información
+	de cada clase. Por ej: “ Nombre y apellidos ( edad) – dni: [Listado de
+	módulos] (repetidor)
+
+	Javier Garcia ( 25 ) - 39988332D: [ M01: 4 - ( 125 horas), M10 :
+	5 - (300 horas), M11 : 3 - (78 horas), M12 : 4 - (175 horas)]
+	(repetidor)
+
+
+	d. Utilizar variables globales para la información de los módulos,
+	utilizando un Map con la clase Modulo.
+
+3 Crea un método en el archivo principal (main) “ordenar Modulos” ,
+dónde se ordene el listado de módulos del alumno de menor a mayor
+por key.
+
+4 Crea un método buscar Modulo(Alumno alumno, String
+nombreModulo) , que devuelva cierto o falso si el módulo se ha
+encontrado.
+
+5 Crea un método “ validar NumeroDe Modulos” que compruebe si el
+número de módulos cursado por un alumno es mayor a 4, si es así, el
+programa tiene que mostrar un mensaje con el texto “Curso
+completo ”, de lo contrario añadirá tantos módulos como necesite para
+que el listado contenga 4 o más módulos. Aviso: Un alumno no puede
+tener módulos repetidos.
